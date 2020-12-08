@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro:100,200,300,400,500,600,700&subset=latin-ext");
+
+body,
+button,
+p,
+span,
+h1,
+h2,
+h3 {
+  font-family: "Maven Pro", "Helvetica", "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0px;
+  padding: 0px;
+}
+
+#root {
+  height: 100%;
+  min-height: 100vh;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+input {
+  font-family: "Maven Pro", "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+table .MuiFormControl-root {
+  display: flex !important;
+}
